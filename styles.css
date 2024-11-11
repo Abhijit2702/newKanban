@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: gray;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  background-color: yellow;
+}
+
+h1 {
+  text-align: center;
+  color: red;
+  justify-items: center;
+  flex: auto;
+}
+
+.board {
+  background-color: red;
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  border: 1px solid yellow;
+  width: 30%;
+  padding: 10px;
+}
+
+.column h2 {
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 8px;
+  margin: 5px 0;
+  background: yellow;
+}
+
+input[type="text"] {
+  width: 70%;
+  background-color: yellowgreen;
+  padding: 5px;
+  margin-right: 5px;
+}
+
+button {
+  padding: 5px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
